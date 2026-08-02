@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ghcli": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/servers/go/ghcli-connector-server",
+      "env": {
+        "GH_TOKEN": "",
+        "GH_HOST": "",
+        "GHCLI_MCP_ALLOW_WRITE": "false",
+        "GHCLI_MCP_ALLOWED_REPOS": ""
+      }
+    }
+  }
+}

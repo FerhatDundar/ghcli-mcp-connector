@@ -1,0 +1,8 @@
+{
+  "name": "ghcli-connector",
+  "version": "0.1.0",
+  "description": "Run GitHub CLI (gh) commands from an MCP agent, with a read-only-by-default safety gate on state-changing operations. Local Go MCP server, no runtime dependencies beyond an authenticated gh CLI.",
+  "author": {
+    "name": "FerhatDundar"
+  }
+}

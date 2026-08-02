@@ -1,0 +1,5 @@
+.env
+*.token
+go-server/ghcli-connector-server
+plugin/servers/go/ghcli-connector-server
+
