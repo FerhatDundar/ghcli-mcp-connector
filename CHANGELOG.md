@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/FerhatDundar/ghcli-mcp-connector/compare/v0.1.0...v0.1.1) (2026-08-03)
+
+
+### Bug Fixes
+
+* trim whitespace from -R/--repo flag value in repoFlagValue ([d80530b](https://github.com/FerhatDundar/ghcli-mcp-connector/commit/d80530bad6674ed7d15cb7d28a7b1ea311c125da))
+
 ## 0.1.0 (2026-08-02)
 
 Initial release.
