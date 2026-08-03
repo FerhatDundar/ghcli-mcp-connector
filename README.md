@@ -186,6 +186,7 @@ ghcli-mcp-connector/
 └── plugin/                     ← installable Cowork/Claude plugin
     ├── .claude-plugin/plugin.json
     ├── .mcp.json                ← holds credentials locally — never commit real ones
+    ├── skills/ghcli-mcp/SKILL.md ← teaches Claude when/how to use the tools
     └── servers/go/              ← compiled binary goes here
 ```
 
