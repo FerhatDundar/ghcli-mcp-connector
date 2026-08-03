@@ -59,6 +59,8 @@ func TestRepoFlagValue(t *testing.T) {
 		{[]string{"issue", "list", "-R", "owner/repo"}, "owner/repo"},
 		{[]string{"issue", "list", "--repo", "owner/repo"}, "owner/repo"},
 		{[]string{"issue", "list", "--repo=owner/repo"}, "owner/repo"},
+		{[]string{"issue", "list", "-R", " owner/repo "}, "owner/repo"},
+		{[]string{"issue", "list", "--repo=  owner/repo"}, "owner/repo"},
 	}
 	for _, c := range cases {
 		if got := repoFlagValue(c.args); got != c.want {

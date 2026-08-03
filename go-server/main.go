@@ -141,11 +141,11 @@ func repoFlagValue(args []string) string {
 	for i, a := range args {
 		if a == "-R" || a == "--repo" {
 			if i+1 < len(args) {
-				return args[i+1]
+				return strings.TrimSpace(args[i+1])
 			}
 		}
 		if strings.HasPrefix(a, "--repo=") {
-			return strings.TrimPrefix(a, "--repo=")
+			return strings.TrimSpace(strings.TrimPrefix(a, "--repo="))
 		}
 	}
 	return ""
