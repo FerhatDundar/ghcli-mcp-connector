@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/FerhatDundar/ghcli-mcp-connector/compare/v0.1.1...v0.2.0) (2026-08-03)
+
+
+### Features
+
+* bundle ghcli-mcp skill into the plugin ([14b9c4f](https://github.com/FerhatDundar/ghcli-mcp-connector/commit/14b9c4f723a03d62440dacfa0254a6f5b73aae9e))
+
 ## [0.1.1](https://github.com/FerhatDundar/ghcli-mcp-connector/compare/v0.1.0...v0.1.1) (2026-08-03)
 
 
